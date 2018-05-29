@@ -1,0 +1,10 @@
+[package]
+authors = ["Matt <mattkramara@gmail.com>"]
+name = "rtl8710_bindings"
+version = "0.1.0"
+[build-dependencies]
+bindgen = "0.37.0"
+cc = "1.0.15"
+
+[dependencies]
+cty = "0.1.5"
